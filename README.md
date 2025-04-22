@@ -1,27 +1,12 @@
-# NeedForNgrx
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+The primary goal of this project is to understand and demonstrate state management in Angular using the NgRx library. It showcases how to manage shared state—like a shopping cart—efficiently using actions, reducers, selectors, and the store. The Cart Summary page and other components can be further enhanced, as illustrated in the screenshot below.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img width="931" alt="image" src="https://github.com/user-attachments/assets/7511554b-4a3a-4bfe-a327-4b4e2f6da4d7" />
 
-## Build
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/eec9a0b5-a1e0-4b65-8cfe-9228c21cf4d8" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/aaf8b8fc-1c32-4451-b314-a4a1586610fd" />
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
