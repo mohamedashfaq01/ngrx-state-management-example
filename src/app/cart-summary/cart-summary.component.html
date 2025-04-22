@@ -1,0 +1,22 @@
+<div class="cart-summary">
+  <div *ngIf="cartItems$ | async as items">
+    <h3>Cart Items ({{ cartTotal$ | async }})</h3>
+    <div *ngIf="items.length === 0" class="empty-cart-message">
+      Your cart is empty
+    </div>
+    <div *ngFor="let item of items" class="cart-item">
+      <span>{{ item.name }}</span>
+      <span>Quantity: {{ item.quantity }}</span>
+      <span>Price: {{ item.price | currency }}</span>
+    </div>
+  </div>
+</div>
+<!-- <div *ngIf="cartItems$ | async as items">
+  <h3>Cart Items ({{ cartTotal$ | async }})</h3>
+  <div *ngIf="items.length === 0">Your cart is empty</div>
+  <div *ngFor="let item of items" class="cart-item">
+    <span>{{ item.name }}</span>
+    <span>Quantity: {{ item.quantity }}</span>
+    <span>Price: {{ item.price | currency }}</span>
+  </div>
+</div> -->
